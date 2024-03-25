@@ -41,6 +41,6 @@ checkTheSpeed.addEventListener("submit", function (event) {
   if (demPoints > 12) {
     output.innerText = `Points: ${demPoints}\nLicense suspended`;
   } else if (demPoints < 12) {
-    output.innerText = `Derail Points: ${demPoints}`;
+    output.innerText = `Demerit Points: ${demPoints}`;
   }
 });
